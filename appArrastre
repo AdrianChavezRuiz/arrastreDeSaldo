@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+
+
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+ 
+<body>
+<div>
+<div>
+ <header id="head1">   
+   <hr>
+    <h1> ARRASTRE DE SALDO </h1>
+<hr>
+
+  </header>
+ 
+  </div>
+
+   <br>
+  <br>
+<br>
+<br>
+
+  <br>
+   <form>
+<h4><button type= "button" onclick= "sd1()">Saldo inicial</button></h4>
+  <div id= "show1" style= "display:none">
+     
+<input id="saldo"  type="number" value="0" onclick= "limpiar1()">
+     </div>
+
+<h4><button type= "button" onclick= "sd2()">Cargas</button></h4>
+<div id=  "show2" style= "display:none"> 
+  
+
+    
+   
+     <input id="sabado" value="0" type="number" onclick= "limpiar2()">
+   
+      <input id= "lunes" value= "0" type= "number" onclick= "limpiar3()">
+
+
+       <input id= "martes" value= "0" type= "number" onclick= "limpiar4()" >
+      <input id= "miercoles" value= "0" type= "number" onclick= "limpiar5()" >
+       <input id= "jueves" value= "0" type= "number" onclick= "limpiar6()" >
+      <input id= "viernes" value= "0" type= "number" onclick= "limpiar7()" >
+ </div>   
+
+
+<h4><button type= "button" onclick= "sd3()">Transferencias recibidas</button></h4>
+     <div id="show3" style= "display:none"> 
+<input id="transR" type="number" value= "0" onclick= "limpiar8()">
+       </div>
+     
+<h4><button type= "button" onclick= "sd4()">Créditos DTS cobrados</button></h4>
+     <div id= "show4" style= "display:none"> 
+<input id="dtsCob" type="number" value= "0"  onclick= "limpiar9()" >
+     </div>
+     
+<h4><button type= "button" onclick= "sd5()">Créditos DTS otorgados</button></h4>
+     <div id= "show5" style= "display:none"> 
+<input id="dtsOt" type="number" value= "0" onclick= "limpiar10()" >
+     </div>
+     
+<h4><button type="button" onclick= "sd6()">Devolución Q</button></h4>
+     
+<div id= "show6"  style= "display:none">
+<input id="devQ" type="number" value= "0" onclick= "limpiar11()" >
+</div>      
+
+<h4><button type= "button" onclick= "sd7()">Devolución M</button></h4>
+
+<div id= "show7"  style= "display:none">
+  <input id="devM" type="number" value="0"  onclick= "limpiar12()">
+
+</div>
+
+<h4><button type= "button" onclick= "sd8()">Transferencias entregadas</button></h4>
+
+
+<div id= "show8"  style= "display:none">
+  <input id="transEnt" type="number" value= "0" onclick= "limpiar13()">
+</div>
+
+
+<h4><button type= "button" onclick= "sd9()">Depósitos + créditos de otra plaza</button></h4>
+
+
+   <div id= "show9"  style= "display:none">
+     <input id="sabado1" value= "0" type= "number" onclick= "limpiar14()" >
+      <input id= "lunes1" value= "0" type= "number" onclick= "limpiar15()"  >
+       <input id= "martes1" value= "0" type= "number" onclick= "limpiar16()"  >
+      <input id= "miercoles1" value= "0" type= "number"  onclick= "limpiar17()" >
+       <input id= "jueves1" value= "0" type= "number" onclick= "limpiar18()"  >
+      <input id= "viernes1" value= "0" type= "number" onclick= "limpiar19()"  >
+</div>
+
+  
+<h4><button type= "button" onclick= "sd10()">Bonificaciones</button></h4>
+
+
+<div id= "show10"  style= "display:none">
+  <input id="bonif" type="number" value= "0" onclick= "limpiar20()" >
+</div>
+
+
+<h4><button type="button" onclick= "sd11()">Cargas negativas</button></h4>
+
+
+<div id= "show11"  style= "display:none">
+  <input id="neg" type="number" value="0" onclick= "limpiar21()"  >
+
+</div>
+
+<h4><button type= "button" onclick= "sd12()">Arqueo físico</button></h4>
+
+
+<div id="show12" style= "display:none;"><input id="credOtraPlaza" type="number" value= "0" onclick= "limpiar22()" >
+</div>
+
+     
+       
+    <br>
+    <br>
+  <button id= "res" type= "reset">Reset</button>
+</form>
+   
+   <br>
+  <br>
+  <br>
+
+ <button id= "cal" onclick="sumar()">calcular</button>
+  
+ 
+     
+
+<h2 id= "saldoC" ></h2>
+
+
+
+  
+  
+   
+</div>
+ <br>
+<br>
+  <br>
+  <br>
+
+
+
+
+
+
+  <script src="script.js">
+    
+  </script>
+  
+
+  
+</body>
+
+</html>
