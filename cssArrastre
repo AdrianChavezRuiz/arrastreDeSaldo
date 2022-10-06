@@ -1,0 +1,119 @@
+
+
+html, body {
+  
+ 
+  height: 100%;
+  width: 100%;
+  color: white; 
+ background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+}
+
+
+  
+  
+
+
+h3{
+color:black;
+
+}
+#head1{
+  width:100%;
+
+position:fixed;
+ 
+color: #ffffff;
+font-size: 1em;
+font-weight: bold;
+font-family: Helvetica;
+/*text-shadow: 0 1px 0 #ffffff, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);*/
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+}
+div{
+
+text-align: center;
+  font-family:sans-serif;
+  }
+button{
+  color:white;
+  font-size:1em;
+  boder-radius:2px 2px;
+  border-top:none;
+  width:345px;
+  height:40px;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(173,0,0,0) 100%);
+font
+}
+
+button:hover{
+  
+  animation-name:letras;
+	animation: letras 7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+  
+
+@keyframes letras{
+  0% {
+    
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.7;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 2;
+    
+  }
+}
+
+ 
+  
+  
+
+
+
+
+#saldoC{
+  width:100%;
+font-size: 2em;
+font-weight: bold;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%);
+}
+
+
+ 
+
+  
+  
+input{
+  color:white;
+
+font-size:25px;
+  border-radius:0px 0px;
+width:150px;
+height:26px;
+  border-color:white;
+  
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(173,0,0,0) 100%);
+
+  }
+
+  
+
+
+#cal{
+  width:180px;
+  }
+#res{
+  width:180px;
+}
+
+
